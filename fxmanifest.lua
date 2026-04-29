@@ -1,4 +1,4 @@
-name("Sandbox RP Framework Robbery")
+name("Pulsar Framework Robbery")
 author("[Alzar, Dr Nick]")
 
 lua54("yes")

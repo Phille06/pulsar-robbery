@@ -1,14 +1,14 @@
 _pbDoorIds = {
-	"sandbox_bank_savings_paleto_office_1",
-	"sandbox_bank_savings_paleto_office_2",
-	"sandbox_bank_savings_paleto_office_3",
-	"sandbox_bank_savings_paleto_corridor_1",
-	"sandbox_bank_savings_paleto_corridor_2",
-	"sandbox_bank_savings_paleto_security",
-	"sandbox_bank_savings_paleto_back_1",
-	"sandbox_bank_savings_paleto_back_2",
-	"sandbox_bank_savings_paleto_gate",
-	"sandbox_bank_savings_paleto_vault",
+	"pulsar_bank_savings_paleto_office_1",
+	"pulsar_bank_savings_paleto_office_2",
+	"pulsar_bank_savings_paleto_office_3",
+	"pulsar_bank_savings_paleto_corridor_1",
+	"pulsar_bank_savings_paleto_corridor_2",
+	"pulsar_bank_savings_paleto_security",
+	"pulsar_bank_savings_paleto_back_1",
+	"pulsar_bank_savings_paleto_back_2",
+	"pulsar_bank_savings_paleto_gate",
+	"pulsar_bank_savings_paleto_vault",
 }
 
 _pbKillZones = {
@@ -25,7 +25,7 @@ _pbKillZones = {
 		data = {
 			isDeath = true,
 			tpCoords = vector3(-113.465, 6460.281, 31.468),
-			door = "sandbox_bank_savings_paleto_office_1",
+			door = "pulsar_bank_savings_paleto_office_1",
 		},
 	},
 	{
@@ -41,7 +41,7 @@ _pbKillZones = {
 		data = {
 			isDeath = true,
 			tpCoords = vector3(-113.465, 6460.281, 31.468),
-			door = "sandbox_bank_savings_paleto_office_2",
+			door = "pulsar_bank_savings_paleto_office_2",
 		},
 	},
 	{
@@ -57,7 +57,7 @@ _pbKillZones = {
 		data = {
 			isDeath = true,
 			tpCoords = vector3(-113.465, 6460.281, 31.468),
-			door = "sandbox_bank_savings_paleto_office_3",
+			door = "pulsar_bank_savings_paleto_office_3",
 		},
 	},
 	{
@@ -73,7 +73,7 @@ _pbKillZones = {
 		data = {
 			isDeath = true,
 			tpCoords = vector3(-113.465, 6460.281, 31.468),
-			door = "sandbox_bank_savings_paleto_vault",
+			door = "pulsar_bank_savings_paleto_vault",
 		},
 	},
 	{
@@ -89,7 +89,7 @@ _pbKillZones = {
 		data = {
 			isDeath = true,
 			tpCoords = vector3(-113.465, 6460.281, 31.468),
-			door = "sandbox_bank_savings_paleto_security",
+			door = "pulsar_bank_savings_paleto_security",
 		},
 	},
 }
@@ -378,7 +378,7 @@ _pbOfficeHacks = {
 			maxZ = 32.63,
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_1",
+			door = "pulsar_bank_savings_paleto_office_1",
 			officeId = 1,
 		},
 	},
@@ -393,7 +393,7 @@ _pbOfficeHacks = {
 			maxZ = 32.43,
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_2",
+			door = "pulsar_bank_savings_paleto_office_2",
 			officeId = 2,
 		},
 	},
@@ -408,7 +408,7 @@ _pbOfficeHacks = {
 			maxZ = 32.43,
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_3",
+			door = "pulsar_bank_savings_paleto_office_3",
 			officeId = 3,
 		},
 	},
@@ -426,7 +426,7 @@ _pbOfficeSearch = {
 			maxZ = 32.23
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_1",
+			door = "pulsar_bank_savings_paleto_office_1",
 			searchId = 1,
 		},
 	},
@@ -441,7 +441,7 @@ _pbOfficeSearch = {
 			maxZ = 32.23
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_1",
+			door = "pulsar_bank_savings_paleto_office_1",
 			searchId = 2,
 		},
 	},
@@ -456,7 +456,7 @@ _pbOfficeSearch = {
 			maxZ = 32.23
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_2",
+			door = "pulsar_bank_savings_paleto_office_2",
 			searchId = 3,
 		},
 	},
@@ -471,7 +471,7 @@ _pbOfficeSearch = {
 			maxZ = 32.23
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_2",
+			door = "pulsar_bank_savings_paleto_office_2",
 			searchId = 4,
 		},
 	},
@@ -486,7 +486,7 @@ _pbOfficeSearch = {
 			maxZ = 32.23
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_3",
+			door = "pulsar_bank_savings_paleto_office_3",
 			searchId = 5,
 		},
 	},
@@ -501,7 +501,7 @@ _pbOfficeSearch = {
 			maxZ = 32.23
 		},
 		data = {
-			door = "sandbox_bank_savings_paleto_office_3",
+			door = "pulsar_bank_savings_paleto_office_3",
 			searchId = 6,
 		},
 	},

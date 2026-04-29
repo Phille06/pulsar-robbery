@@ -52,7 +52,7 @@ AddEventHandler("Robbery:Client:Setup", function()
 	}, {
 		isDeath = true,
 		tpCoords = vector3(-291.188, -2406.996, 6.901),
-		door = "sandbox_coke_garage",
+		door = "pulsar_coke_garage",
 	})
 
 	exports['pulsar-polyzone']:CreatePoly("bank_lombank", {
@@ -80,7 +80,7 @@ AddEventHandler("Robbery:Client:Setup", function()
 	}, {
 		isDeath = true,
 		tpCoords = vector3(2.593, -935.504, 29.905),
-		door = "sandbox_lombank_hidden_entrance",
+		door = "pulsar_lombank_hidden_entrance",
 	})
 
 	exports.ox_target:addBoxZone({
@@ -110,7 +110,7 @@ AddEventHandler("Robbery:Client:Setup", function()
 	}, {
 		isDeath = true,
 		tpCoords = vector3(2.593, -935.504, 29.905),
-		door = "sandbox_lombank_lasers",
+		door = "pulsar_lombank_lasers",
 	})
 
 	for k, v in ipairs(_lombankRooms) do

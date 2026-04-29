@@ -89,7 +89,7 @@ function ResetMazeBank()
 		GlobalState[string.format("MazeBank:Offices:PC:%s", v.data.deskId)] = nil
 	end
 
-	exports['ox_doorlock']:SetLock("sandbox_mazebank_offices", true)
+	exports['ox_doorlock']:SetLock("pulsar_mazebank_offices", true)
 	exports['pulsar-cctv']:StateGroupOnline("mazebank")
 	for k, v in pairs(_mbDoors) do
 		exports['ox_doorlock']:SetLock(v.door, true)
@@ -131,7 +131,7 @@ function SecureMazeBank()
 		GlobalState[string.format("MazeBank:Offices:PC:%s", v.data.deskId)] = nil
 	end
 
-	exports['ox_doorlock']:SetLock("sandbox_mazebank_offices", true)
+	exports['ox_doorlock']:SetLock("pulsar_mazebank_offices", true)
 	exports['pulsar-cctv']:StateGroupOnline("mazebank")
 	for k, v in ipairs(_mbDoors) do
 		exports['ox_doorlock']:SetLock(v.door, true)
@@ -286,7 +286,7 @@ AddEventHandler("Robbery:Server:Setup", function()
 								GlobalState[string.format("MazeBank:Power:%s", data.boxId)] = _mbGlobalReset
 								TriggerEvent("Particles:Server:DoFx", data.ptFxPoint, "spark")
 								if IsMBPowerDisabled() then
-									exports['ox_doorlock']:SetLock("sandbox_mazebank_offices", false)
+									exports['ox_doorlock']:SetLock("pulsar_mazebank_offices", false)
 									exports['pulsar-cctv']:StateGroupOffline("mazebank")
 										exports["pulsar-sounds"]:PlayLocation(
 											source,
@@ -315,7 +315,7 @@ AddEventHandler("Robbery:Server:Setup", function()
 										)
 									GlobalState["Fleeca:Disable:mazebank_baycity"] = true
 								else
-									exports['ox_doorlock']:SetLock("sandbox_mazebank_offices", true)
+									exports['ox_doorlock']:SetLock("pulsar_mazebank_offices", true)
 									exports["pulsar-sounds"]:PlayLocation(
 											source,
 											data.ptFxPoint,
@@ -482,7 +482,7 @@ AddEventHandler("Robbery:Server:Setup", function()
 									GlobalState[string.format("MazeBank:Power:%s", data.boxId)] = _mbGlobalReset
 									TriggerEvent("Particles:Server:DoFx", data.ptFxPoint, "spark")
 									if IsMBPowerDisabled() then
-										exports['ox_doorlock']:SetLock("sandbox_mazebank_offices", false)
+										exports['ox_doorlock']:SetLock("pulsar_mazebank_offices", false)
 										exports['pulsar-cctv']:StateGroupOffline("mazebank")
 											exports["pulsar-sounds"]:PlayLocation(
 												source,
@@ -512,7 +512,7 @@ AddEventHandler("Robbery:Server:Setup", function()
 											)
 										GlobalState["Fleeca:Disable:mazebank_baycity"] = true
 									else
-										exports['ox_doorlock']:SetLock("sandbox_mazebank_offices", true)
+										exports['ox_doorlock']:SetLock("pulsar_mazebank_offices", true)
 										exports["pulsar-sounds"]:PlayLocation(
 												source,
 												data.ptFxPoint,

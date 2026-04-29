@@ -128,7 +128,7 @@ function SetupQueues()
 
 					exports['pulsar-phone']:EmailSend(
 						char:GetData("Source"),
-						"unknown@sandboxrp.gg",
+						"unknown@pulsarfw.com",
 						os.time(),
 						string.format("You Were Chosen For A %s", v.name),
 						string.format(
